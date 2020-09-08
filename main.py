@@ -318,11 +318,3 @@ while run:
       rectangle = pygame.Rect((x - 10, y - 10), (20, 20))
       pygame.draw.rect(screen, COLOR, rectangle)
     pygame.display.update()
-
-
-#TODO: rotate the green circle to an x and y when mouse clicked
-#plan:
-#mouse gets clicked:
-#rotate green circle towards the mouse x and y
-#green circle moves to x and y eventually
-#repeat until game end or death
